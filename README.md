@@ -1,16 +1,30 @@
-### Hi there 👋
+class I_am( ):
+    
+    def __init__( self ):
+        self.name = "Michael"
+        self.age = 23
+        self.city = "Guarabira"
+        self.state = "PB"
+        self.country = "Brazil"
 
-<!--
-**mikaelgba/mikaelgba** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def description( self ):
+        return "%s, %d age, live-in city %s, %s - %s" %(self.name, self.age, self.city, self.state, self.country)
 
-Here are some ideas to get you started:
+class Skills( ):
+    
+    def __init__( self ):
+        self.language = ["Python", "Java", "JS", "R", "NodeJs", "Django", "SQLite", "Postgresql", "MongoDB", "MEMES"]
+     
+    def michael( self ):
+        michael = I_am()
+        out = michael.description()
+        return out
+    
+    def list_skills( self ):
+        string_out = self.michael() + ", experience with -> "
+        for i in self.language:        
+            string_out += i + " - "              
+        return string_out
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+michael_print = Skills()        
+print(michael_print.list_skills())
