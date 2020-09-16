@@ -1,30 +1,29 @@
-class Skills( ):
-    
-    def __init__( self ):
+class I_am( ):
+
+    def __init__( self ):       
+        self.name = "Michael"
+        self.age = 23
+        self.city = "Guarabira"
+        self.state = "PB"
+        self.country = "Brazil"
         
-        self.language = ["Python", "Java", "JS", "R", "NodeJS", "Django", "SQLite", "Postgresql", "MongoDB", "MEMES"]
-      
+    class Skills( ):
+            
+        def __init__( self ): 
+            self.language = ["Python", "Java", "JS", "R", "NodeJS", "Django", "SQLite", "Postgresql", "MongoDB", "MEMES"]
+
+    def description( self ):            
+        list_skills = self.Skills()      
+        return "%s, %d age, live-in city %s, %s - %s" %(self.name, self.age, self.city, self.state, self.country)     
+  
     def list_skills( self ):
         
-        michael = self.I_am()
-        string_out = michael.description() + ", experience with -> "
-        for i in self.language:        
+        list_skills = self.Skills()
+        string_out = self.description() + ", experience with -> "
+        for i in list_skills.language:        
             string_out += i + " - "              
         return string_out
     
-    class I_am( ):
-    
-        def __init__( self ):
-            
-            self.name = "Michael"
-            self.age = 23
-            self.city = "Guarabira"
-            self.state = "PB"
-            self.country = "Brazil"
+michael_print = I_am()
 
-        def description( self ):
-            
-            return "%s, %d age, live-in city %s, %s - %s" %(self.name, self.age, self.city, self.state, self.country)
-
-michael_print = Skills()        
 print(michael_print.list_skills())
