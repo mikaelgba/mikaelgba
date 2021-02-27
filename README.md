@@ -13,12 +13,11 @@
 
             def __init__(self): 
                 self.languages = ["Python","Java","JS","R","TS"]
-                self.frameworks = ["NodeJS","Django","Flask","Spring Boot","ReactJS"]
+                self.frameworks = ["NodeJS","Django","Flask","Spring Boot","ReactJS","Angular"]
                 self.databases = ["SQLite","MySQL","Postgresql","MongoDB"]
                 self.others = ["Docker"]
 
-        def description(self):            
-            list_skills = self.Skills()      
+        def description(self):      
             return "%s, %d age, live-in city %s, %s - %s" %(self.name, self.age, self.city, self.state, self.country)     
 
         def list_skills(self):
@@ -27,10 +26,9 @@
             string_out = self.description() + ", experience with -> "
             for datas in list_full:
                 for data in datas:
-                    string_out += str(data) + " - "
+                    string_out += str(data) + " / "
             return string_out
 
-    
     if __name__ == '__main__':
         michael_print = I_am()
         print(michael_print.list_skills())
