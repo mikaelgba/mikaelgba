@@ -6,4 +6,4 @@
 - From Brazil - PB
 
 ![Michael GitHub stats](https://github-readme-stats.vercel.app/api?username=mikaelgba&show_icons=true&theme=cobalt)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikaelgba&layout=compact)](https://github.com/mikaelgba/github-readme-stats)
+[![Bot Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikaelgba&layout=compact&hide=html)](https://github.com/mikaelgba/Python_Web_Repository)
