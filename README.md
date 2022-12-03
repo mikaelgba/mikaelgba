@@ -1,35 +1,9 @@
-```python
+# Michael Uewerton Targino de Oliveira
+[![Linkedin](https://img.shields.io/badge/LinkedIn-blue?style=for-the-badge&logo=Linkedin)](https://www.linkedin.com/in/michael-oliveira-2815a31ba/)
+[![Gmail](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:mikaelgba@gmail.com)](mailto:mikaelgba@gmail.com)
+### Hello! Welcome to my profile
+- I’m Software Engineer
+- From Brazil - PB
 
-    class I_am():
-
-        def __init__(self):       
-            self.name = "Michael"
-            self.age = 24
-            self.city = "Guarabira"
-            self.state = "PB"
-            self.country = "Brazil"
-
-        class Skills( ):
-
-            def __init__(self): 
-                self.languages = ["Python","Java","JS","R","TS"]
-                self.frameworks = ["NodeJS","Django","Flask","Spring Boot","ReactJS","Angular"]
-                self.databases = ["SQLite","MySQL","Postgresql","MongoDB"]
-                self.others = ["Docker"]
-
-        def description(self):      
-            return "%s, %d age, live-in city %s, %s - %s" %(self.name, self.age, self.city, self.state, self.country)     
-
-        def list_skills(self):
-            list_skills = self.Skills()
-            list_full = [list_skills.languages,list_skills.frameworks,list_skills.databases,list_skills.others]
-            string_out = self.description() + ", experience with -> "
-            for datas in list_full:
-                for data in datas:
-                    string_out += str(data) + " / "
-            return string_out
-
-    if __name__ == '__main__':
-        michael_print = I_am()
-        print(michael_print.list_skills())
-```
+![Michael GitHub stats](https://github-readme-stats.vercel.app/api?username=mikaelgba&show_icons=true&theme=cobalt)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikaelgba&layout=compact)](https://github.com/mikaelgba/github-readme-stats)
