@@ -26,4 +26,4 @@
 <img height="30" src="https://github.com/Pythunder/explore/blob/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/azure/azure.png">
 
 ![Michael GitHub stats](https://github-readme-stats.vercel.app/api?username=mikaelgba&show_icons=true&theme=cobalt)
-[![Bot Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikaelgba&layout=compact&hide=html)](https://github.com/mikaelgba/Python_Web_Repository)
+[![Bot Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mikaelgba&layout=compact&hide=html,jupyter%20notebook)](https://github.com/mikaelgba/Python_Web_Repository)
